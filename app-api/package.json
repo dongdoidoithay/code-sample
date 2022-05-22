@@ -1,0 +1,48 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "crawl mangabuddy.com",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon \\app-api-graphql\\app.js",
+    "test": "notest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "crawl.manga.en"
+  },
+  "keywords": [
+    "crawl",
+    "nodejs"
+  ],
+  "author": "dproject",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-redis-cache": "^1.1.3",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "limax": "^3.0.0",
+    "mysql2": "^2.2.5",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.12",
+    "redis": "^3.1.2",
+    "redis-server": "^1.2.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.6.5",
+    "slugify": "^1.5.3",
+    "swagger": "^0.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
